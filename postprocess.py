@@ -6,15 +6,13 @@ from collections import defaultdict
 from pathlib import Path
 from random import shuffle
 from typing import Dict, List, Tuple
+import argparse
+import sys
+from itertools import chain
 
 import numpy as np
 from dateutil.parser import parse as dt_parse
 
-import argparse
-import json
-import sys
-from itertools import chain
-from pathlib import Path
 
 
 def run(args=None):
