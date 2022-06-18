@@ -65,6 +65,8 @@ def filter_cmd(args):
         print(f"ERROR: File {coco_file} does not exist. Exiting.")
         sys.exit(1)
 
+    print(f"Running filtering script...")
+
     coco_out = filter_coco(
         coco_file=coco_file,
         visible_percentage_threshold=args.visible_percentage_threshold,
