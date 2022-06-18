@@ -16,7 +16,7 @@ Filtering can be done based on a combination of the following:
 
 Example of how to call it:
 
-`python postprocess.py filter --visible-percentage 0.6 --std-threshold 1.5 --area-threshold 150`
+`python postprocess.py filter -c <local_path/coco.json> --visible-percentage 0.6 --std-threshold 1.5 --area-threshold 150`
 
 will remove all annotations which have the visibility < 60%, that have the area < mean(class) - 1.5* std(class) and have the absolute area value < 150 pixels
 
