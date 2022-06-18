@@ -1,5 +1,6 @@
 # CPGDet-129
 ![Image](https://github.com/neurolaboratories/reshelf-detection/blob/main/samples/1_KMXdMBez.jpeg)
+![Image](https://github.com/neurolaboratories/reshelf-detection/blob/main/samples/1_KMXdMBez.png)
 
 We're excited to open source one of Neurolabs’ synthetic datasets, **CPGDet-129** that is used in our retail-focused flagship product, ReShelf. Neurolabs is leading the way for synthetic computer vision applied across the value chain of consumer product goods (CPG). **CPGDet-129** been used to train a synthetic computer vision model for the task of object localisation and is the first public synthetic dataset designed specifically for the task of object detection. 
 
